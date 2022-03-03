@@ -4,7 +4,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background: #fff;
+  background: #00151C;
   color: #666666;
   font-family: "Open Sans", sans-serif;
 }
@@ -402,6 +402,27 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 30px;
   }
 }
+
+.countdown{
+  display: flex;
+  padding-bottom: 3rem;
+  gap:2rem;
+  font-size:1rem;
+  color:rgb(190, 187, 187);
+
+}
+
+.time{
+  position:relative;
+  content:'';
+  width:5rem;
+  height:2.2rem;
+  border-radius:50px;
+  background-color: #00E3BE;
+  font-size:1.5rem;
+  color:#182124;
+}
+
 #hero .btn-get-started {
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
