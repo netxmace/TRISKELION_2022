@@ -1,5 +1,10 @@
 
-
+@font-face {
+  font-family: 'mangabey';
+  src: url('./Fonts/CommandOverrideGradient-1xJB.otf');
+  font-style: normal;
+  font-weight: normal;
+  }
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -403,6 +408,21 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.trisk{
+  font-family:'mangabey';
+  text-align:center;
+  font-size:3.4rem;
+  color:#00E3BE;
+  line-height: 70px;
+  margin-bottom:1rem;
+  letter-spacing:6px;
+  margin-top:4.5rem;
+}
+
+.siz{
+  font-size:4.7rem;
+}
+
 .countdown{
   display: flex;
   padding-bottom: 3rem;
@@ -421,7 +441,10 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #00E3BE;
   font-size:1.5rem;
   color:#182124;
+  font-weight: 700
 }
+
+
 
 #hero .btn-get-started {
   font-family: "Poppins", sans-serif;
