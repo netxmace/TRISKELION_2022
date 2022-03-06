@@ -441,10 +441,39 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #00E3BE;
   font-size:1.5rem;
   color:#182124;
-  font-weight: 700
+  font-weight: 600;
 }
 
+.abt{
+  color:#fff;
+  text-align:center;
+  font-size:2rem;
+  font-weight: 700;
+  padding-bottom:2rem
+}
 
+.flex-align{
+  width:90%;
+}
+.about{
+  max-width:720px;
+  padding:0 3rem;
+  text-align:center;
+  font-size:1.2rem;
+  font-weight:500;
+  color:rgb(212, 212, 212);
+  margin:0 auto;
+}
+
+.abt-img{
+  display:flex;
+  align-items:center;
+  max-width :450px;
+  width:369px;
+  height:auto;
+  margin: 4rem auto 0 auto;
+  opacity: 0.9;
+}
 
 #hero .btn-get-started {
   font-family: "Poppins", sans-serif;
@@ -735,4 +764,15 @@ a:hover, a:focus {
   align-items: center;
   justify-content: center;
 }
+}
+
+@media all and (min-width: 992px) {
+ 
+  /* .flex_g1{
+   display:flex;
+ }
+  .flex_g1> div{
+    flex: 1 1 33%;
+  } */
+
 }
