@@ -748,6 +748,7 @@ a:hover, a:focus {
  .row 
  {
   font-size: 15px;
+ }
 }
 @media (max-width: 990px) and (min-width: 720px) {
  .row 
@@ -872,9 +873,3 @@ a:hover, a:focus {
 #footer .credits a:hover {
   color: #009961;
 }
-
-
-
-
-
-
