@@ -782,7 +782,66 @@ a:hover, a:focus {
 }
 }
 
+@media all and (min-width: 992px) {
+ 
+  /* .flex_g1{
+   display:flex;
+ }
+  .flex_g1> div{
+    flex: 1 1 33%;
+  } */
 
+}
+
+
+
+#countdown1 {
+  text-align: center;
+  color: antiquewhite;
+  border-radius: 25px;
+  background: teal;
+  padding: 20px;
+  width: 150px;
+  height: 15px;
+}
+
+#countdown2 {
+  text-align: center;
+  color: antiquewhite;
+  border-radius: 25px;
+  background: teal;
+  padding: 20px;
+  width: 150px;
+  height: 15px;
+}
+
+#countdown3 {
+  text-align: center;
+  color: antiquewhite;
+  border-radius: 25px;
+  background: teal;
+  padding: 20px;
+  width: 150px;
+  height: 15px;
+  display: grid;
+}
+
+.countdownpanel>*{
+  text-align: center;
+  color: antiquewhite;
+  border-radius: 25px;
+  background: teal;
+  padding: 20px;
+  width: 150px;
+  height: 15px;
+  display: grid;
+}
+#countdownpanel{
+    position: absolute;
+   display: grid;
+   grid-auto-flow: column ;
+   margin-top: 40vh; 
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -852,3 +911,9 @@ a:hover, a:focus {
 #footer .credits a:hover {
   color: #009961;
 }
+
+
+
+
+
+

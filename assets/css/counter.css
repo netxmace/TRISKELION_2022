@@ -1,0 +1,20 @@
+
+
+#timer_d {
+    font-size: 3em;
+    font-weight: 100;
+    color: white;
+    text-shadow: 0 0 20px #48C8FF;
+  }
+  
+  #timer_d div {
+    display: inline-block;
+    min-width: 90px;
+  }
+  
+  #timer_d div span {
+    color: #B1CDF1;
+    display: block;
+    font-size: .35em;
+    font-weight: 400;
+  }
