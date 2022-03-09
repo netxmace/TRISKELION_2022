@@ -774,3 +774,53 @@ a:hover, a:focus {
   } */
 
 }
+
+
+
+#countdown1 {
+  text-align: center;
+  color: antiquewhite;
+  border-radius: 25px;
+  background: teal;
+  padding: 20px;
+  width: 150px;
+  height: 15px;
+}
+
+#countdown2 {
+  text-align: center;
+  color: antiquewhite;
+  border-radius: 25px;
+  background: teal;
+  padding: 20px;
+  width: 150px;
+  height: 15px;
+}
+
+#countdown3 {
+  text-align: center;
+  color: antiquewhite;
+  border-radius: 25px;
+  background: teal;
+  padding: 20px;
+  width: 150px;
+  height: 15px;
+  display: grid;
+}
+
+.countdownpanel>*{
+  text-align: center;
+  color: antiquewhite;
+  border-radius: 25px;
+  background: teal;
+  padding: 20px;
+  width: 150px;
+  height: 15px;
+  display: grid;
+}
+#countdownpanel{
+    position: absolute;
+   display: grid;
+   grid-auto-flow: column ;
+   margin-top: 40vh; 
+}
