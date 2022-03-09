@@ -473,6 +473,20 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.9;
 }
 
+.register{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-color:#004944;
+  height:125px;
+  width:40%;
+  margin:0 auto;
+  border-radius: 30px;
+  color:#fff;
+  font-size:3rem;
+
+}
+
 #hero .btn-get-started {
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
@@ -657,7 +671,10 @@ section {
 .card.card-just-text .content {
     padding: 50px 65px;
     text-align: center;
+    align-items:center;
 }
+
+
 .card .content {
     padding: 20px 20px 10px 20px;
 }
@@ -735,18 +752,62 @@ a:hover, a:focus {
 @media (max-width: 990px) and (min-width: 720px) {
  .row 
  {
-
   font-size: 14px;
+ }
 }
 
-
+#countdown1 {
+  text-align: center;
+  color: antiquewhite;
+  border-radius: 25px;
+  background: teal;
+  padding: 20px;
+  width: 150px;
+  height: 15px;
 }
 
+#countdown2 {
+  text-align: center;
+  color: antiquewhite;
+  border-radius: 25px;
+  background: teal;
+  padding: 20px;
+  width: 150px;
+  height: 15px;
+}
+
+#countdown3 {
+  text-align: center;
+  color: antiquewhite;
+  border-radius: 25px;
+  background: teal;
+  padding: 20px;
+  width: 150px;
+  height: 15px;
+  display: grid;
+}
+
+.countdownpanel>*{
+  text-align: center;
+  color: antiquewhite;
+  border-radius: 25px;
+  background: teal;
+  padding: 20px;
+  width: 150px;
+  height: 15px;
+  display: grid;
+}
+#countdownpanel{
+    position: absolute;
+   display: grid;
+   grid-auto-flow: column ;
+   margin-top: 40vh; 
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: ;
+  background:linear-gradient(180deg, rgba(4,161,135,1) 0%, rgba(3,74,82,1) 41%, rgba(29,28,46,1) 100%);
   color: #fff;
   font-size: 14px;
   text-align: center;
@@ -761,6 +822,14 @@ a:hover, a:focus {
   padding: 0;
   margin: 0 0 15px 0;
 }
+
+.flex{
+  display: flex;
+  gap:2rem;
+  justify-content: center;
+
+}
+
 #footer p {
   font-size: 15;
   font-style: italic;
@@ -803,3 +872,9 @@ a:hover, a:focus {
 #footer .credits a:hover {
   color: #009961;
 }
+
+
+
+
+
+
