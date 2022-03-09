@@ -802,13 +802,80 @@ a:hover, a:focus {
  }
 }
 }
+@media (max-width: 575px) and (min-width: 370px) {
+.row {
+   position: relative;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.container{
+  margin: 0px auto;
+
+  padding:0.9rem 2rem;
+}
+.card{
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+  margin: 0px auto;
+  padding:0.9rem 2rem;
+  
+}
+}
 @media (max-width: 990px) and (min-width: 720px) {
  .row 
  {
-  font-size: 14px;
- }
+
+  align-items: center;
+  justify-content: center;
+  margin: 0px auto;
+  padding:0.9rem 2rem;
+}
+.container{
+  margin: 0px auto;
+
+  padding:0.9rem 2rem;
+}
+.card{
+  
+  align-items: center;
+  justify-content: center;
+  margin: 0px auto;
+  padding:0.9rem 2rem;
+
+}
 }
 
+
+
+@media all and (min-width: 991px) {
+ .row 
+ {
+
+  align-items: center;
+  justify-content: center;
+  margin: 0px auto;
+  padding:0.9rem 2rem;
+}
+.container{
+  margin: 0px auto;
+
+  padding:0.9rem 2rem;
+}
+.card{
+  
+  align-items: center;
+  justify-content: center;
+  margin: 0px auto;
+  padding:0.9rem 2rem;
+
+}
+}
 #countdown1 {
   text-align: center;
   color: antiquewhite;
