@@ -23,7 +23,7 @@
 
 
 function updateTimer() {
-    future = Date.parse("sept 2, 2020 11:30:00");
+    future = Date.parse("april 10, 2022 11:30:00");
     now = new Date();
     diff = future - now;
 
@@ -37,7 +37,7 @@ function updateTimer() {
     m = mins - hours * 60;
     s = secs - mins * 60;
 
-    document.getElementById("timer")
+    document.getElementById("timer_d")
         .innerHTML =
         '<div>' + d + '<span>days</span></div>' +
         '<div>' + h + '<span>hours</span></div>' +
