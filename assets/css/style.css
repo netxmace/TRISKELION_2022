@@ -524,7 +524,7 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-@media all and (max-width:840px){
+@media all and (max-width:992px){
   .register{
     width:80%;
     font-size:5vmax;
