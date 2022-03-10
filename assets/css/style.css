@@ -505,38 +505,7 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.9;
 }
 
-.register{
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  margin:0 auto;
-  margin-top: 6rem;
-  border:2px solid rgb(41, 41, 41);
-  background-color: #00E3BE;
-  color:#000;
-  
-  padding:0.9rem 2rem;
-  width:40%;
-  border-radius: 30px;
-  font-size:6vmin;
-  font-family:'register';
-  transition:all .25s ease-in-out;
 
-}
-
-@media all and (max-width:840px){
-  .register{
-    width:80%;
-    font-size:5vmax;
-  }
-}
-
-.register:hover,.register:focus{
-  cursor:pointer;
-  border:2px solid #00E3BE;
-  background-color:#021e27;
-  color:#00E3BE;
-}
 
 #hero .btn-get-started {
   font-family: "Poppins", sans-serif;
@@ -655,29 +624,6 @@ section {
   .breadcrumbs ol li {
     display: inline-block;
   }
-}
-
-
-
-
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
-#footer {
-  background: #082929;
- 
-  padding: 30px 0;
-  color: #fff;
-  font-size: 14px;
-}
-#footer .copyright {
-  text-align: center;
-}
-#footer .credits {
-  padding-top: 10px;
-  text-align: center;
-  font-size: 13px;
-  color: #ccc;
 }
 
 
@@ -921,6 +867,36 @@ a:hover, a:focus {
    display: grid;
    grid-auto-flow: column ;
    margin-top: 40vh; 
+}
+
+/*--------------------------------------------------------------
+# reg
+--------------------------------------------------------------*/
+.reg {
+  background:  fixed center center;
+  background-size: cover;
+  margin-top: -20px;
+  
+}
+
+.reg .reg-btn {
+  border:2px solid rgb(41, 41, 41);
+  background-color: #00E3BE;
+  color:#000;
+  font-weight: 1000;
+  font-size: 32px;
+  font-family: register;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 35px;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+.reg .reg-btn:hover {
+  cursor:pointer;
+  border:2px solid #00E3BE;
+  background-color:#021e27;
+  color:#00E3BE;
 }
 /*--------------------------------------------------------------
 # Footer
