@@ -513,15 +513,13 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 6rem;
   border:2px solid rgb(41, 41, 41);
   background-color: #00E3BE;
-  color:#000;
-  
   padding:0.9rem 2rem;
   width:40%;
   border-radius: 30px;
   font-size:6vmin;
   font-family:'register';
   transition:all .25s ease-in-out;
-
+  color:#000;
 }
 
 @media all and (max-width:992px){
